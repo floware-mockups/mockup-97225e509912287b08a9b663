@@ -1,0 +1,215 @@
+{
+  "title": "Progettazione di interni per monolocali",
+  "description": "Gestisci concept, ambienti e render di arredo per appartamenti monolocali, con una dashboard di avanzamento e tabelle filtrabili.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Riepilogo dei progetti di interior design e del loro stato di lavorazione.",
+      "metrics": [
+        {
+          "label": "Progetti attivi",
+          "value": "8"
+        },
+        {
+          "label": "Render in revisione",
+          "value": "5"
+        },
+        {
+          "label": "Concept approvati",
+          "value": "12"
+        },
+        {
+          "label": "Superficie media",
+          "value": "34 m2"
+        }
+      ],
+      "columns": [
+        "Progetto",
+        "Cliente",
+        "Stile",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Nido Lumo",
+          "Dimora Nubi",
+          "Nordico caldo",
+          "In lavorazione"
+        ],
+        [
+          "Soglia Vela",
+          "Casa Quarzo",
+          "Minimal naturale",
+          "In revisione"
+        ],
+        [
+          "Rifugio Lume",
+          "Spazio Brina",
+          "Contemporaneo",
+          "Approvato"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "progetti",
+      "title": "Progetti",
+      "description": "Consulta e filtra i progetti di arredo dei monolocali; crea una nuova scheda progetto.",
+      "metrics": [],
+      "columns": [
+        "Progetto",
+        "Cliente",
+        "Superficie",
+        "Stile",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Nido Lumo",
+          "Dimora Nubi",
+          "32 m2",
+          "Nordico caldo",
+          "In lavorazione"
+        ],
+        [
+          "Soglia Vela",
+          "Casa Quarzo",
+          "28 m2",
+          "Minimal naturale",
+          "In revisione"
+        ],
+        [
+          "Rifugio Lume",
+          "Spazio Brina",
+          "36 m2",
+          "Contemporaneo",
+          "Approvato"
+        ],
+        [
+          "Pausa Nera",
+          "Corte Mirto",
+          "41 m2",
+          "Japandi",
+          "Da avviare"
+        ]
+      ],
+      "form": [
+        "Progetto",
+        "Cliente",
+        "Superficie",
+        "Stile",
+        "Stato"
+      ]
+    },
+    {
+      "id": "ambienti",
+      "title": "Ambienti",
+      "description": "Organizza gli ambienti dei progetti e registra gli elementi principali da includere nei render.",
+      "metrics": [],
+      "columns": [
+        "Ambiente",
+        "Progetto",
+        "Zona",
+        "Palette",
+        "Elementi principali"
+      ],
+      "rows": [
+        [
+          "Nido raccolto",
+          "Nido Lumo",
+          "Giorno-notte",
+          "Sabbia e salvia",
+          "Letto a scomparsa; tavolo pieghevole"
+        ],
+        [
+          "Luce radente",
+          "Soglia Vela",
+          "Ingresso",
+          "Panna e rovere",
+          "Guardaroba; specchio"
+        ],
+        [
+          "Angolo quieto",
+          "Rifugio Lume",
+          "Cucina",
+          "Argilla e crema",
+          "Penisola compatta; mensole"
+        ]
+      ],
+      "form": [
+        "Ambiente",
+        "Progetto",
+        "Zona",
+        "Palette",
+        "Elementi principali"
+      ]
+    },
+    {
+      "id": "render",
+      "title": "Render",
+      "description": "Monitora le viste richieste e l’avanzamento delle revisioni per ciascun progetto.",
+      "metrics": [
+        {
+          "label": "Viste da preparare",
+          "value": "7"
+        },
+        {
+          "label": "In revisione",
+          "value": "5"
+        },
+        {
+          "label": "Pronte",
+          "value": "9"
+        }
+      ],
+      "columns": [
+        "Render",
+        "Progetto",
+        "Ambiente",
+        "Vista",
+        "Stato",
+        "Revisione"
+      ],
+      "rows": [
+        [
+          "Lumo 01",
+          "Nido Lumo",
+          "Nido raccolto",
+          "Vista principale",
+          "In revisione",
+          "2"
+        ],
+        [
+          "Vela 02",
+          "Soglia Vela",
+          "Luce radente",
+          "Vista ingresso",
+          "Da preparare",
+          "0"
+        ],
+        [
+          "Lume 03",
+          "Rifugio Lume",
+          "Angolo quieto",
+          "Vista cucina",
+          "Pronto",
+          "1"
+        ]
+      ],
+      "form": [
+        "Render",
+        "Progetto",
+        "Ambiente",
+        "Vista",
+        "Stato",
+        "Revisione"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "blu-istituzionale",
+    "fonts": "istituzionale"
+  }
+}
